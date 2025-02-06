@@ -4,6 +4,6 @@ for i in range(n):
 	a, b = map(int, raw_input().split())
 	if a > b: m += 1
 	elif b > a: c += 1
-if m > c: print 'test'
+if m > c: print 'test2'
 elif m < c: print 'Chris'
 else: print 'Friendship is magic!^^'
